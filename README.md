@@ -3,14 +3,14 @@
 
 > 在 [https://cubicbird.github.io/myfighter-playground/](https://cubicbird.github.io/myfighter-playground/) 打开此页面
 
-## 用作扩展
+## 本项目是myfighter的开发基础程序
 
-此仓库可以作为 **插件** 添加到 MakeCode 中。
+此仓库可以作为 程序模版 进行使用
 
 * 打开 [https://arcade.makecode.com/](https://arcade.makecode.com/)
-* 点击 **新项目**
-* 点击齿轮图标菜单下的 **扩展**
-* 搜索 **https://github.com/cubicbird/myfighter-playground** 并导入
+* 点击 **Import / 导入**
+* 选择 from URL
+* 黏贴  **https://github.com/cubicbird/myfighter-playground** 并导入
 
 ## 编辑此项目 ![构建状态标志](https://github.com/cubicbird/myfighter-playground/workflows/MakeCode/badge.svg)
 
