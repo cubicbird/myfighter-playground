@@ -18,12 +18,12 @@
 
 ## 集成
 
-切换Javascript
-将main.ts中所有代码包在 namespace myfighter\_[id]\_dlc.[character_name]()方法中
-**要去掉项目中对playgame.characterMenu()的调用**
-发布项目获取arcade url
-利用该url在目标项目中作为extension引入
-在集成项目调用上述步骤中export的函数
+* 切换Javascript
+* 将main.ts中所有代码包在 namespace myfighter\_[id]\_dlc.[character_name]()方法中
+* **要去掉项目中对playgame.characterMenu()的调用**
+* 发布项目获取arcade url
+* 利用该url在目标项目中作为extension引入
+* 在集成项目调用上述步骤中export的函数
 
 
 ## 编辑此项目 ![构建状态标志](https://github.com/cubicbird/myfighter-playground/workflows/MakeCode/badge.svg)
