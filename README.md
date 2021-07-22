@@ -3,7 +3,7 @@
 
 > 在 [https://cubicbird.github.io/myfighter-playground/](https://cubicbird.github.io/myfighter-playground/) 打开此页面
 
-## 本项目是myfighter的开发基础程序
+## 本项目是myfighter的 角色 开发基础程序
 
 此仓库可以作为 程序模版 进行使用
 
