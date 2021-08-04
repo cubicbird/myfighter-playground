@@ -3,7 +3,8 @@
     "version": "0.1.0",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "fightextension": "github:cubicbird/fightextension#v0.3.1"
     },
     "files": [
         "main.blocks",
@@ -14,9 +15,6 @@
     "testFiles": [
         "test.ts"
     ],
-    "testDependencies": {
-        "fightextension": "github:cubicbird/fightextension#v0.2.6"
-    },
     "targetVersions": {
         "branch": "v1.4.45",
         "tag": "v1.4.45",

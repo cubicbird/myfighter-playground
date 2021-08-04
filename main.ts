@@ -21,7 +21,7 @@ fightext_character.basicSet(img`
     ................
     ................
     ................
-    `, "未命名", function (player2) {
+    `, "unnamed", function (player2) {
     fightext_character.setAtkImage(player2, fightext_character.atkimgKind.hand1, img`
         ...........fff..
         fff........ccfff
@@ -593,12 +593,7 @@ fightext_character.basicSet(img`
     fightext_character.setAbility(player2, fightext_character.abilityKind.jumpspeed, 150)
 })
 playGame.characterMenus()
-fightext_skill.skillSet("未命名", function (player2) {
-    fightext_skill.setSkill(player2, fightext_skill.SkillKind.A1, 10, function (tempVar, undefined) {
-        fightext_skill.shoot2(player2, "子弹", fightext_character.getHPMPXY(player2, fightext_character.HPMP.x), fightext_character.getHPMPXY(player2, fightext_character.HPMP.y))
-    })
-})
-fightext_projectile.setProjectiles("", function () {
+fightext_projectile.setProjectiles("bat.projectiles", function () {
     fightext_projectile.setProjectile(img`
         . . . . . . . . . . . . . . . . 
         . . . . . . . . . . . . . . . . 
@@ -616,7 +611,12 @@ fightext_projectile.setProjectiles("", function () {
         . . . . . . . . . . . . . . . . 
         . . . . . . . . . . . . . . . . 
         . . . . . . . . . . . . . . . . 
-        `, "子弹", function (projectile) {
+        `, "dots", function (projectile) {
         fightext_projectile.setBullet(projectile, fightext_projectile.bulletP.damage, 5)
+    })
+})
+fightext_skill.skillSet("unnamed", function (player2) {
+    fightext_skill.setSkill(player2, fightext_skill.SkillKind.A1, 10, function (tempVar, undefined) {
+        fightext_skill.shoot2(player2, "dots", fightext_character.getHPMPXY(player2, fightext_character.HPMP.x), fightext_character.getHPMPXY(player2, fightext_character.HPMP.y))
     })
 })
