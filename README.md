@@ -25,6 +25,9 @@
 * 利用该url在目标项目中作为extension引入
 * 在集成项目调用上述步骤中export的函数
 
+## 发布
+加参数可在下载时编译成elf文件
+https://arcade.makecode.com/#editor?hw=rpi&compile=rawELF
 
 ## 编辑此项目 ![构建状态标志](https://github.com/cubicbird/myfighter-playground/workflows/MakeCode/badge.svg)
 
